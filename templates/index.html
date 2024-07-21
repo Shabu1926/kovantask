@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-RESTAPI using flask</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to the Employee Management System</h1>
+    <h1 style="text-align: center;">Useful Links</h1>
+    <ul style="text-align: center;list-style-type:none;">
+        {% for name, url in links.items() %}
+            <li><a href="{{ url }}" target="_blank">{{ name}}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
